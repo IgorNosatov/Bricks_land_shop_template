@@ -1,0 +1,10 @@
+.nav-link,
+.dropdown-toggle {
+    font-weight: 300;
+    color: $white;
+    font-family: "Itim";
+    font-size: 22px;
+    &:hover {
+        color: $white;
+    }
+}

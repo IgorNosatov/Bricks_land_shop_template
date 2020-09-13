@@ -1,0 +1,51 @@
+.btn-main {
+    @include btn-main($yellow, $black, 16px);
+    font-weight: bolder;
+    border-radius: 0px;
+    &:hover {
+        color: $black
+    }
+}
+
+.btn-reset {
+    @include btn-main($yellow, $black, 16px);
+    font-weight: bolder;
+    border-radius: 0px;
+    margin-top: 11px;
+    &:hover {
+        color: $black
+    }
+}
+
+.card__btn {
+    @include btn-main($yellow, $black, 16px);
+    font-weight: bolder;
+    &:hover {
+        color: $black
+    }
+}
+
+.btn-banner {
+    @include btn-main($orange, $white, 16px);
+    font-weight: bolder;
+    border: 1px solid $grey;
+    border-radius: 5px;
+    padding: 16px;
+    text-transform: uppercase;
+    &:hover {
+        color: $black;
+    }
+}
+
+.btn-pagin {
+    @include btn-main($yellow, $black, 22px);
+    font-weight: bolder;
+    padding: 10px 20px;
+    text-shadow: 1px 1px $white;
+    transition: all 0.5s;
+    border: 1px solid $midnight;
+    &:hover {
+        color: $midnight !important;
+        border-radius: 0px;
+    }
+}

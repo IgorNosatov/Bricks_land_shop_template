@@ -1,0 +1,35 @@
+.promo {
+    width: 100%;
+    background: url(../../img/banner.jpg);
+    background-size: cover !important;
+    color: $black;
+}
+
+.shop-area__banner {
+    width: 100%;
+    background: url(../../img/banner.jpg);
+    background-size: cover !important;
+    color: $black;
+}
+
+.promo__banner {
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 250px 0;
+}
+
+.promo-image {
+    height: 250px;
+}
+
+.promo__image {
+    width: 100%;
+    background: url(../../img/trend3.jpg);
+    background-size: cover !important;
+}
+
+.banner-title,
+.banner-subtitle {
+    color: $blue;
+    text-shadow: $black 1px 1px;
+}
